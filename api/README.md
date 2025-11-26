@@ -15,7 +15,9 @@ Run the API
 uvicorn main:app --reload
 ```
 
-Test at `POST http://127.0.0.1:8000/predict`
+The API should now be running on port 8000.
+
+Example request (put image in binary request body): `POST http://localhost:8000/predict?dining_hall_id=5&meal_time=lunch&meal_date=2025-11-25`
 
 Deactivate the virtual environment when done
 ```bash
