@@ -1,3 +1,14 @@
 fastapi
 uvicorn[standard]
+python-multipart
+pillow
+numpy
+opencv-python-headless
+requests
+torch
+torchvision
+transformers
+openai
 pydantic
+sentencepiece
+timm
